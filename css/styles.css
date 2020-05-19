@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .logo {
   /* position: fixed; */
   background-color: #00243f;
@@ -90,4 +91,98 @@ footer {
   color: #fbf4e1;
   padding-bottom: 10px;
   padding-left: 10px;
+=======
+.logo {
+  /* position: fixed; */
+  background-color: #00243f;
+  display: flex;
+}
+
+#img-logo {
+  margin-left: 10px;
+  height: 72px;
+  width: 200px;
+}
+
+h1{
+  background-color: #00243f;
+  font-family: 'Courier New', Courier, monospace;
+  color: #fbf4e1;
+  padding: 10px;
+  margin: 0px;
+}
+
+h2 {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30px;
+}
+
+p {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 19px;
+}
+
+/* #b67929 #a3acb1 #3c5b74 #264b77 #00243f */
+
+div {
+  margin: 0px;
+}
+
+.pic {
+  margin-right: 10px;
+  max-width: 75%;
+  border: 1px black;
+}
+
+#img-og {
+  margin-top: 30px;
+  margin-left: 5px;
+  border: black 1px;
+  padding: 2px;
+  max-width: 100%;
+}
+
+body {
+  background-color: #fbf4e1;
+}
+
+.navbar {
+    background-color: #264b77;
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+.navbar a {
+    color: #fbf4e1;
+    margin: 10px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+.navbar a:hover {
+  background-color: #ed2b54;
+  color: #fbf4e1;
+  padding: 10px;
+  margin: 0px;
+}
+
+.active {
+  background-color: #ed2b54;
+  color: black;
+}
+
+.end {
+  background-color: #00243f;
+  color: #fbf4e1;
+  display: flex;
+  justify-content: space-around;
+}
+
+footer {
+  display: flex;
+  justify-content: left;
+  background-color: #00243f;
+  color: #fbf4e1;
+  padding-bottom: 10px;
+  padding-left: 10px;
+>>>>>>> e41e63ed7c9a1ecf3e4acb222f01926d69cdcd25
 }
