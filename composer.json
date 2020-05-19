@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 {
     "name": "pwblo",
     "description": "pwblo website",
@@ -8,15 +7,4 @@
             "email": "mipwblo@gmail.com"
         }
     ]
-=======
-{
-    "name": "pwblo",
-    "description": "pwblo website",
-    "authors": [
-        {
-            "name": "Brandon Chapman",
-            "email": "mipwblo@gmail.com"
-        }
-    ]
->>>>>>> e41e63ed7c9a1ecf3e4acb222f01926d69cdcd25
 }
