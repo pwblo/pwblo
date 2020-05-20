@@ -1,21 +1,26 @@
+* {
+  margin: 0;
+}
+
 .logo {
   /* position: fixed; */
   background-color: #00243f;
   display: flex;
 }
 
-#img-logo {
+.logo img {
   margin-left: 10px;
   height: 72px;
   width: 200px;
 }
 
+.welcome {
+  width: 95%;
+  margin: auto;
+}
+
 h1{
-  background-color: #00243f;
   font-family: 'Courier New', Courier, monospace;
-  color: #fbf4e1;
-  padding: 10px;
-  margin: 0px;
 }
 
 h2 {
@@ -25,27 +30,15 @@ h2 {
 
 p {
   font-family: 'Courier New', Courier, monospace;
-  font-size: 19px;
+  font-size: 15px;
 }
 
 /* #b67929 #a3acb1 #3c5b74 #264b77 #00243f */
 
-div {
-  margin: 0px;
-}
-
-.pic {
-  margin-right: 10px;
-  max-width: 75%;
-  border: 1px black;
-}
-
-#img-og {
-  margin-top: 30px;
-  margin-left: 5px;
-  border: black 1px;
-  padding: 2px;
-  max-width: 100%;
+.verHist {
+  width: 95%;
+  margin: auto;
+  border:1px solid #021a40;
 }
 
 body {
@@ -62,6 +55,7 @@ body {
     color: #fbf4e1;
     margin: 10px;
     font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
   }
 
 .navbar a:hover {
@@ -78,9 +72,31 @@ body {
 
 .end {
   background-color: #00243f;
-  color: #fbf4e1;
   display: flex;
   justify-content: space-around;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+.history {
+  width: 95%;
+  margin: auto;
+}
+
+.about {
+  width: 95%;
+  margin: auto;
+}
+
+.end h2 {
+  font-size: 20px;
+  color: #fbf4e1;
+}
+
+.end p {
+  font-size: 18px;
+  color: #fbf4e1;
 }
 
 footer {
@@ -88,6 +104,7 @@ footer {
   justify-content: left;
   background-color: #00243f;
   color: #fbf4e1;
+  font-size: 10px;
   padding-bottom: 10px;
   padding-left: 10px;
 }
