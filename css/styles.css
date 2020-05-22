@@ -24,12 +24,38 @@ html, body {
 
 .welcome {
   background-size: cover;
-  width: 90%;
-  margin: auto;
+  width: 100%;
   padding-top: 15px;
-  /* width: 414;
+  display: flex;
+  justify-content: center;
+  margin: 0px;
   margin: auto;
-  background-image: url(../img/blur-close-up-code-computer-546819.jpg); */
+  background-image: url(../img/blue-and-purple-cosmic-sky-956999.jpg);
+}
+
+.welcome h1 {
+  justify-content: center;
+  padding-top: 6em;
+  padding-bottom: 6em;
+  color: white;
+  font-size: 50px;
+}
+
+.stand-out {
+  display: flex;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.stand-out img {
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 30px;
+}
+
+.stand-out div {
+  width: 95%;
+  margin: auto;
 }
 
 h1{
@@ -89,7 +115,7 @@ body {
 }
 
 .about {
-  width: 90%;
+  width: 95%;
   margin: auto;
   padding-top: 15px;
 }
