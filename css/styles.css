@@ -2,6 +2,14 @@
   margin: 0px;
 }
 
+html, body {
+  height: 100%;
+}
+
+#container {
+  padding-bottom: 100px;
+}
+
 .logo {
   /* position: fixed; */
   background-color: #00243f;
@@ -15,8 +23,13 @@
 }
 
 .welcome {
-  width: 95%;
+  background-size: cover;
+  width: 90%;
   margin: auto;
+  padding-top: 15px;
+  /* width: 414;
+  margin: auto;
+  background-image: url(../img/blur-close-up-code-computer-546819.jpg); */
 }
 
 h1{
@@ -42,7 +55,7 @@ p {
 }
 
 body {
-  background-color: #fbf4e1;
+  background-color: white;
 }
 
 .navbar {
@@ -52,7 +65,7 @@ body {
   }
   
 .navbar a {
-    color: #fbf4e1;
+    color: white;
     margin: 10px;
     font-family: 'Courier New', Courier, monospace;
     text-decoration: none;
@@ -60,7 +73,7 @@ body {
 
 .navbar a:hover {
   background-color: #ed2b54;
-  color: #fbf4e1;
+  color: white;
   padding: 10px;
   margin: 0px;
 }
@@ -70,46 +83,47 @@ body {
   color: black;
 }
 
-.end {
-  background-color: #00243f;
-  display: flex;
-  justify-content: space-around;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-bottom: 10px;
-  padding-top: 10px;
-}
-
 .history {
   width: 95%;
   margin: auto;
 }
 
 .about {
-  width: 95%;
+  width: 90%;
   margin: auto;
-}
-
-.end h2 {
-  font-size: 20px;
-  color: #fbf4e1;
-}
-
-.end p {
-  font-size: 18px;
-  color: #fbf4e1;
+  padding-top: 15px;
 }
 
 footer {
-  display: flex;
-  justify-content: left;
   background-color: #00243f;
-  color: #fbf4e1;
-  font-size: 10px;
-  padding-bottom: 10px;
-  padding-left: 10px;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  margin-bottom: 0px;
+  width: 100%;
+  position: absolute;
+}
+
+.social-media {
+  height: 35px;
+  padding: 10px;
+}
+
+footer h2 {
+  font-size: 20px;
+  color: white;
+}
+
+footer p {
+  font-size: 18px;
+  color: white;
 }
 
 @media only screen and (min-width: 768) {
+
+  footer {
+    /* margin-top: -100px; */
+  }
   
 }
