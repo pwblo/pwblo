@@ -30,13 +30,13 @@ html, body {
   justify-content: center;
   margin: 0px;
   margin: auto;
-  background-image: url(../img/blue-and-purple-cosmic-sky-956999.jpg);
+  background-image: url(../img/blue-and-purple-cosmic-sky-956999-compressor.jpg);
 }
 
 .welcome h1 {
   justify-content: center;
-  padding-top: 6em;
-  padding-bottom: 6em;
+  padding-top: 4em;
+  padding-bottom: 8em;
   color: white;
   font-size: 50px;
 }
@@ -146,10 +146,50 @@ footer p {
   color: white;
 }
 
-@media only screen and (min-width: 768) {
+@media only screen and (min-width: 768px) {
 
-  footer {
-    /* margin-top: -100px; */
+  .stand-out {
+    flex-wrap: nowrap;
   }
   
+  .stand-out img {
+    width: 50%;
+  }
+
+  .stand-out div {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 8px;
+  }
+
+  .stand-out h1 {
+    font-size: 40px;
+  }
+
+  .stand-out p {
+    font-size: 20px;
+  }
+  
+  .welcome h1 {
+    font-size: 60px;
+    padding-top: 6em;
+    padding-bottom: 8em;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  
+  .stand-out h1 {
+    font-size: 55px;
+  }
+  
+  .stand-out p {
+    font-size: 35px;
+  }
+
+  .welcome h1 {
+    font-size: 70px;
+    padding-top: 2em;
+    padding-bottom: 4em;
+  }
 }
